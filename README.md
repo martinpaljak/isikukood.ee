@@ -1,9 +1,9 @@
 # isikukood.ee/38207162722
-Simple service that deals with Estonian ID-code, implemented as a simple proxy of eID LDAP. Non-valid ID-code results in 404.
-
+Simple service that deals with Estonian ID-code, implemented as a simple proxy of eID LDAP.
 ## JSON
 
-Query certificates in PEM format, wrapped in JSON
+Query certificates in PEM format, wrapped in JSON. Non-valid ID-code results in 404.
+
 
     $ curl -s https://isikukood.ee/38207162722/json/pem | jq
 
