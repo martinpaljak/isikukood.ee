@@ -21,7 +21,7 @@ For usage with OpenSSH
     
 After what you can access your account with ID-card
 
-    $ ssh -I /usr/lin/opensc-pkcs11.so you@example.com
+    $ ssh -I /usr/lib/opensc-pkcs11.so you@example.com
 
 ## Contact
 * martin@martinpaljak.net
