@@ -12,7 +12,7 @@ Query certificates in PEM format, wrapped in JSON. Non-valid ID-code results in 
 For lazy and nostalgic UNIX folks
 
     $ whois -h isikukood.ee 38207162722
-    $ whois -h isikukood.ee 38207162722/ssh
+    $ whois -h isikukood.ee 38207162722/ssh >> ~/.ssh/authorized_keys
 
 ## SSH
 
